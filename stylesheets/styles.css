@@ -336,10 +336,11 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-    font-family: "Segoe UI", Arial, sans-serif;
+h6,
+h7 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-weight: 400;
-    margin: 10px 0
+    margin: 5px 0
 }
 
 .w3-wide {
@@ -1443,6 +1444,11 @@ a {
     padding: 12px 24px !important
 }
 
+.w3-padding-10 {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important
+}
+
 .w3-padding-16 {
     padding-top: 16px !important;
     padding-bottom: 16px !important
@@ -1975,4 +1981,8 @@ a {
 .w3-border-pale-blue,
 .w3-hover-border-pale-blue:hover {
     border-color: #e7ffff !important
+}
+
+h7 {
+    font-size: 14px;
 }
